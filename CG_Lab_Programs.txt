@@ -73,6 +73,7 @@ int main(int argc,char *argv[])
 }
 
 ---------------------------------------------------
+
 2. Program to implement Mid Point Circle Algorithm. The radius should be specified by the user.
 
 #include <GL/glut.h>
@@ -140,6 +141,7 @@ int main(int argc,char *argv[])
 }
 
 --------------------------
+
 3. Program to implement Liang-Barsky line clipping algorithm. Make provision to specify the input line, window for clipping and viewport for displaying the clipped image.
 
 #include<stdio.h>
@@ -261,8 +263,6 @@ void draw_boundry(int type)
         glEnd();
         }*/
 
-
-
 }
 void draw_line(int type)
 {
@@ -367,7 +367,9 @@ void draw_line(int type)
 
 
    }
+
 -----------------------------------
+
 4. Program to implement the Cohen-Sutherland line-clipping algorithm. Make provision to specify the input line, window for clipping and viewport for displaying the clipped image.
 
 #include<stdio.h>
@@ -561,7 +563,9 @@ int compute(int x, int y)
 
     return code;
 }
+
 -------------------------------------
+
 5. Program to fill any given polygon using scan-line area filling algorithm. vertices for the polygon should be specified by the user.
 #include<stdio.h>
 #include<stdlib.h>
@@ -822,7 +826,9 @@ int main(int argc,char **argv)
 	glutMainLoop();
 }
 
+
 -----------------------------------------------
+
 8. Program to create a random figure and rotate it about a given fixed point using transformation matrices. Make provision for the user to enter pivot point for the rotation.
 #include<windows.h>
 #include<stdio.h>
@@ -908,6 +914,7 @@ int main(int argc,char **argv)
 }
 
 ------------------------------------
+
 9.Program to create a random object and to implement the suggested mouse and keyboard interactions through OpenGL function.
 
 #include<GL/glut.h>
@@ -972,8 +979,6 @@ void mykey(unsigned char key, int x, int y)
      if(key=='s' || key=='S')
         draw_square(x,y);
 
-
-
 }
 void draw_point(int x, int y)
 {    glColor3f(0,0,1);
@@ -1036,6 +1041,7 @@ void draw_triangle(int x, int y)
 
 
 -------------------------------------
+
 10. Program to draw a color cube and spin it using OpenGL transformation matrices along x, y and z axes.
 
 #include<stdlib.h>
